@@ -9,7 +9,6 @@ This project focuses on predicting the presence of heart disease using a **K-Nea
 
 The project includes **data preprocessing, feature scaling, model training, hyperparameter tuning, and data visualization** to extract meaningful insights.
 
----
 
 ## 📊 Dataset
 
@@ -28,7 +27,6 @@ The project includes **data preprocessing, feature scaling, model training, hype
   * `0` → No Heart Disease
   * `1` → Heart Disease
 
----
 
 ## ⚙️ Technologies Used
 
@@ -39,7 +37,6 @@ The project includes **data preprocessing, feature scaling, model training, hype
 * Seaborn
 * Scikit-learn
 
----
 
 ## 🔍 Exploratory Data Analysis (EDA)
 
@@ -51,7 +48,6 @@ The following visualizations were used to understand the dataset:
 * 📌 Cholesterol vs Heart Disease → Analyzes cholesterol impact
 * 📌 Heart Disease Percentage by Age Group → Shows age-wise disease trend
 
----
 
 ## 🧠 Key Insights
 
@@ -61,7 +57,6 @@ The following visualizations were used to understand the dataset:
 * **Cholesterol and blood pressure alone** are not strong predictors due to overlapping values.
 * Features like **chest pain type and maximum heart rate** show stronger influence.
 
----
 
 ## 🔧 Data Preprocessing
 
@@ -72,7 +67,6 @@ The following visualizations were used to understand the dataset:
   * **StandardScaler**
 * Data split into training and testing sets
 
----
 
 ## 🤖 Model Building
 
@@ -82,7 +76,6 @@ The following visualizations were used to understand the dataset:
   * Euclidean Distance (`p=2`)
   * Manhattan Distance (`p=1`)
 
----
 
 ## ⚡ Hyperparameter Tuning
 
@@ -96,7 +89,6 @@ The following visualizations were used to understand the dataset:
   * `n_neighbors`
   * `p` (distance metric)
 
----
 
 ## 📈 Model Evaluation
 
@@ -107,7 +99,6 @@ The model was evaluated using:
 * ✅ Classification Report
 * ✅ ROC-AUC Score
 
----
 
 ## 📊 Results
 
@@ -115,7 +106,6 @@ The model was evaluated using:
 * Hyperparameter tuning improved model accuracy
 * ROC curve indicates good class separability
 
----
 
 ## 🚀 Conclusion
 
@@ -123,7 +113,6 @@ The model was evaluated using:
 * Feature engineering and visualization helped in understanding data patterns
 * Heart disease prediction requires multiple medical attributes rather than relying on a single factor
 
----
 
 
 ## 🙌 Author
